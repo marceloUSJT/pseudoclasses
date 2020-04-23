@@ -1,0 +1,88 @@
+li {
+    margin: 10px 0;
+    color: white;
+}
+
+html,body {
+    width: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-size: 15pt;
+}
+
+body {
+    background-image: url('../imgs/fundo.jpg');
+    background-size: 100%;
+}
+
+#container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.link:visited {
+    color: white;
+    text-shadow: 4px 4px 4px yellow;
+}
+
+#google:hover {
+    color: coral;
+    font-size: 130pt;
+    transition: all 14s;
+}
+
+#youtube:active {
+    color: black;
+    font-size: 5pt;
+}
+
+#facebook:hover {
+    color: black;
+    cursor: default;
+}
+
+#globo {
+    color: white;
+}
+#globo:focus {
+    color: red;
+}
+
+#uol:hover {
+    position: absolute;
+    margin: 45px 0;
+}
+
+#instagram:active {
+    font-size: 20pt;
+    color: royalblue;
+}
+
+#twitter {
+    color: white;
+}
+#twitter:hover {
+    background-color: saddlebrown;
+    padding: 10px;
+    color: white;
+}
+#mercadoLivre {
+    color: white;
+}
+#mercadoLivre:hover {
+    background: yellow;
+    font-size: 50pt;
+    transition: all 6s;
+    color: aqua;
+}
+
+#netflix:active {
+    text-decoration: underline wavy red;
+    font-size: 20pt;
+}
+#wikipedia {
+    color: white;
+}
+#wikipedia:hover {
+    color: yellow;
+}
